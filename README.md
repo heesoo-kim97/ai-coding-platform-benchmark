@@ -47,4 +47,20 @@ Important:
 | 01    | Bolt     | Fix filter     | 10:15:20  |     3:37 |        2 | Passed  |
 | 01    | Bolt     | Add KPI        | 10:18:44  |     3:24 |        3 | Passed  |
 
+Speed Recording:
+
+Start -> Submit standaridized prompt -> AI generates application -> Run tests -> Fix failures using stadardized prompts -> Run tests again -> 12/12 requirements pass -> stop
+
+Time to Functional Completion = Stop Timestamp - Start Timestamp
+
+T1 - Time to First Build
+- How long until the platform produces its first usable application
+
+T2 - Time to Functional Completion
+- How long until all required functionality passes
+
+T3 - Time to Final Version
+- How long until the final standardized modification is complete and passes regression testing
+
+Self-Q: How do we know the distinction between usable application vs functional completness?
 
