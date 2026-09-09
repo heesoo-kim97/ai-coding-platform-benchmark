@@ -64,3 +64,29 @@ T3 - Time to Final Version
 
 Self-Q: How do we know the distinction between usable application vs functional completness?
 
+For Screenshot:
+
+Screenshot 1
+- Initial prompt: Shows exactly what I gave the AI
+Screenshot 2
+- First Generated Application: Shows the first output
+Screenshot 3
+- Major error: If something fails, capture it
+Screenshot 5
+- Correction prompt: Shows how I instructed the AI to fix it
+Screenshot 6
+- Testing results: Shows pass/fail results
+
+
+Keep a raw experiment log - like the example above
+
+Example:
+
+```
+data/
+├── experiment_log.csv
+├── test_results.csv
+├── requirements.csv
+└── platform_metadata.csv
+```
+
