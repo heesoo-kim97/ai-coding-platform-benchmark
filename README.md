@@ -90,3 +90,20 @@ data/
 └── platform_metadata.csv
 ```
 
+Limitations
+- AI outputs are stochastic
+- three trials may not be sufficient
+- platform models can change
+- pricing can change
+- results may depend on task complexity
+- UI evaluation has subjective components
+- one benchmark cannot represent all software-development scenarios
+
+** Results represents performance under the defined experimental conditions and should not be interpreted as a universal ranking of AI coding platforms.
+
+Tools & Technologies
+- Python, Pandas, MySQL
+- Tableau
+- AI coding platforms
+- Testing
+- Documentation: GitHub, Markdown, Screen recording
