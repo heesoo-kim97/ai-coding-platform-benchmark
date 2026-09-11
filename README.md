@@ -107,3 +107,14 @@ Tools & Technologies
 - AI coding platforms
 - Testing
 - Documentation: GitHub, Markdown, Screen recording
+
+Brainstorming:
+
+Main research Question:
+Which AI coding platform provides the best balance of development speed, functional accuracy, and reliability when building and modifying a standardized business application?
+
+| Dimension | What we're asking |
+| --------- | ----------------- |
+| Speed | How quickly can the platform produce a working application? |
+| Accuracy | Does the application actually satisfy the requirements? |
+| Reliability | Can the AI modify the application without breaking existing functionality? |
