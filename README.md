@@ -60,9 +60,27 @@ Paci Coast Energy Drink Types
 
 ### Product Sizes/ package formats
 
-| Product Family | Flavors |
-| --- | ---: |
-| Original | Original |
-| Zero | Zero Sugar |
-| Citrus | Citrus Blast |
+| Product | Size | Package |
+| --- | ---: | --: |
+| Paci Coast Original | 12 oz | Single |
+| Paci Coast Original | 16 oz | Single |
+| Paci Coast Original | 12 oz | 12-Pack |
+| Paci Coast Zero | 12 oz | Single |
+| Paci Coast Zero | 12 oz | Single |
+| Paci Coast Citrus | 12 oz | 12-Pack |
+
+### Three Warehouses
+
+**WH-01** - Long Beach
+> Primary role: LA County / coastal distribution
+
+**WH-02** - Anaheim
+> Primary role: Orange County
+
+**WH-03** - Ontario
+> Primary role: Inland Empire/Inland distribution
+
+## ERP Structure
+<img width="1486" height="1232" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/59415b3d-0d29-46dd-a97b-77739a93a121" />
+
 
