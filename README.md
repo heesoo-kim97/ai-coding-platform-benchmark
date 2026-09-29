@@ -41,7 +41,8 @@ Company size: Medium-sized
 | Products | 25 |
 | Customers | 15 |
 | Vehicles/carriers | 8 |
-| Regions | LA County, Orange Countyy, Inland Empire |
+| Primary User | Operations Manager |
+| Regions | LA County, Orange County, Inland Empire |
 
 ### Product Portfolio
 
@@ -57,7 +58,11 @@ Paci Coast Energy Drink Types
 | Grape | Grape |
 | Peach | Peach |
 
-Product Sizes/ package formats
+### Product Sizes/ package formats
 
-
+| Product Family | Flavors |
+| --- | ---: |
+| Original | Original |
+| Zero | Zero Sugar |
+| Citrus | Citrus Blast |
 
