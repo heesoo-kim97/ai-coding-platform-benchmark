@@ -2,121 +2,62 @@
 
 # ai-coding-platform-benchmark
 
-4 major questions
+Evaluating AI application builders through a standardized ERP operations system
+> How effectively can AI application-building platforms translate standardized business requirements into a functional ERP-style operations system?
 
-Q1. Speed
-Which platform builds the required application fastest?
+Status: In Progress
 
-Q2. Accuracy
-Which platform produces the most functionally correct application?
+---
 
-Q3. Efficiency
-Which platform requires the fewest prompts/iterations and lowest cost?
+## Research Questions
+| Question | Measurement |
+| --- | :---: |
+| Speed | How quickly can the platform reach functional completion? |
+| Accuracy | How many requirements and tests pass? |
+| Efficiency | How many prompts/iterations and what usage cost are required? |
+| Reliability | How many defects/regressions occur after modifications? |
 
-Q4. Reliability
-Which platform introduces the fewest defects when modifying existing code?
+---
 
-Speed Vs Quality
-Does faster generation actually lead to more defects?
+## Company Background
 
-Prompts vs Accuracy
-Does additional iteration improve quality?
+**Paci Coast Beverage Distribution**
 
-Cost vs Quality
-Does spending more AI compute actually produce better results?
+Industry: Energy beverages / Consumer packed goods / Distribution
 
-Complexity vs Performance
-Does the performance gap between platforms widen as requirements become more complex?
+Location: Southern California
 
-Brainstorming:
+Company size: Medium-sized
 
-Test replit, Lovable, Bolt, Claude
+---
 
-Screen Recording - record the experiement on OBS Studio. For later use to demonstrate the experiement
+## Business Profile
+> Paci Coast Beverage Distribution is a fictional Southern California energy beverage company that manufactures, stores, and distributes energy drinks to retail and food-service customers across Southern California.
 
-Important:
-- Prompt: Have the script of the inital prompt that was provided to AI
-- Screenshot: first generated application (result)
-- Major error: If something fails, capture the error
-- Correction prompt: Shows how you instructed the AI to fix it.
-- Final application: shows the completed result
-- Raw experiment log:
+| Area | Scope |
+| --- | ---: |
+| Warehouses | 3 |
+| Employees | 75 |
+| Products | 25 |
+| Customers | 15 |
+| Vehicles/carriers | 8 |
+| Regions | LA County, Orange Countyy, Inland Empire |
 
-| Trial | Platform | Event          | Timestamp | Duration | Prompt # | Result  |
-| ----- | -------- | -------------- | --------- | -------: | -------: | ------- |
-| 01    | Bolt     | Initial prompt | 10:02:15  |        — |        1 | Started |
-| 01    | Bolt     | First build    | 10:11:43  |     9:28 |        1 | Partial |
-| 01    | Bolt     | Fix filter     | 10:15:20  |     3:37 |        2 | Passed  |
-| 01    | Bolt     | Add KPI        | 10:18:44  |     3:24 |        3 | Passed  |
+### Product Portfolio
 
-Speed Recording:
+Paci Coast Energy Drink Types
+| Product Family | Flavors |
+| --- | ---: |
+| Original | Original |
+| Zero | Zero Sugar |
+| Citrus | Citrus Blast |
+| Berry | Berry Rush |
+| Tropical | Tropical |
+| Watermelon | Watermelon |
+| Grape | Grape |
+| Peach | Peach |
 
-Start -> Submit standaridized prompt -> AI generates application -> Run tests -> Fix failures using stadardized prompts -> Run tests again -> 12/12 requirements pass -> stop
-
-Time to Functional Completion = Stop Timestamp - Start Timestamp
-
-T1 - Time to First Build
-- How long until the platform produces its first usable application
-
-T2 - Time to Functional Completion
-- How long until all required functionality passes
-
-T3 - Time to Final Version
-- How long until the final standardized modification is complete and passes regression testing
-
-Self-Q: How do we know the distinction between usable application vs functional completness?
-
-For Screenshot:
-
-Screenshot 1
-- Initial prompt: Shows exactly what I gave the AI
-Screenshot 2
-- First Generated Application: Shows the first output
-Screenshot 3
-- Major error: If something fails, capture it
-Screenshot 5
-- Correction prompt: Shows how I instructed the AI to fix it
-Screenshot 6
-- Testing results: Shows pass/fail results
+Product Sizes/ package formats
 
 
-Keep a raw experiment log - like the example above
 
-Example:
-
-```
-data/
-├── experiment_log.csv
-├── test_results.csv
-├── requirements.csv
-└── platform_metadata.csv
-```
-
-Limitations
-- AI outputs are stochastic
-- three trials may not be sufficient
-- platform models can change
-- pricing can change
-- results may depend on task complexity
-- UI evaluation has subjective components
-- one benchmark cannot represent all software-development scenarios
-
-** Results represents performance under the defined experimental conditions and should not be interpreted as a universal ranking of AI coding platforms.
-
-Tools & Technologies
-- Python, Pandas, MySQL
-- Tableau
-- AI coding platforms
-- Testing
-- Documentation: GitHub, Markdown, Screen recording
-
-Brainstorming:
-
-Main research Question:
-Which AI coding platform provides the best balance of development speed, functional accuracy, and reliability when building and modifying a standardized business application?
-
-| Dimension | What we're asking |
-| --------- | ----------------- |
-| Speed | How quickly can the platform produce a working application? |
-| Accuracy | Does the application actually satisfy the requirements? |
-| Reliability | Can the AI modify the application without breaking existing functionality? |
