@@ -83,4 +83,22 @@ Paci Coast Energy Drink Types
 ## ERP Structure
 <img width="1486" height="1232" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/59415b3d-0d29-46dd-a97b-77739a93a121" />
 
+## ERP Scope
 
+| Module | Purpose |
+| --- | --- |
+| Dashboard | Monitor overall Dashboard |
+| Orders | Create and Manage customer orders |
+| Inventory | Track stock by SKU and warehouse |
+| Shipments | Monitor Delivery Activties |
+| Exceptions | Identify operational issues |
+
+## Key Business Rules
+
+| Rule | Definition |
+| --- | --- |
+| Low Inventory | Quantity on Hand <= Reorder Point |
+| Delayed Shipment | Actual Delivery > Promised Delivery |
+| Pending Order | Order created but not fulfilled |
+| Inventory Allocation | Order quantity reduces available inventory |
+| Insufficient Inventory | Order cannot be fulfilled when available inventory is insufficient |
